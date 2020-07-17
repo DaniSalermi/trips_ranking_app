@@ -6,7 +6,7 @@ import 'header_appbar.dart';
 
 class HomeTrips extends StatelessWidget {
   final String descriptionText =
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. \n\n Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. \n\n Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+      "Choroní es una parroquia venezolana ubicada en una zona costeña en el extremo norte del municipio Girardot, estado Aragua, lo que le añade los elementos naturales peculiares de la faja litoral del parque nacional Henri Pittier. \n\n Sus principales actividades económicas están ligadas a la pesca, la agricultura del cacao y el turismo, que ha tomado mayor importancia durante la última década. \n\n La palabra Choroní proviene del nombre de los indígenas que habitaban el valle ocupado por la parroquia del mismo nombre.";
   @override
   Widget build(BuildContext context) {
     return Stack(
