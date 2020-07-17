@@ -14,7 +14,10 @@ class _FloatingActionButtonGreen extends State<FloatingActionButtonGreen> {
     setState(() {
       _isPressed = !_isPressed;
     });
-    Scaffold.of(context).showSnackBar(SnackBar(
+
+    final contextScaffold = Scaffold.of(context);
+    contextScaffold.removeCurrentSnackBar();
+    contextScaffold.showSnackBar(SnackBar(
       content: _isPressed
           ? Text("Añadido a favoritos")
           : Text("Removido de favoritos"),
